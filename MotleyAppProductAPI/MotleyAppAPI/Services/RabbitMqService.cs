@@ -15,8 +15,8 @@ namespace MotleyAppAPI.Services
             ConnectionFactory connection = new ConnectionFactory()
             {
                 HostName = "localhost",
-                Password = "ZEppelin34567%",
-                UserName = "gkwasniewski",
+                Password = "***",
+                UserName = "***",
                 Uri = new Uri("amqps://b-0ed699be-aff8-4810-b9b5-b206d124a741.mq.eu-north-1.amazonaws.com:5671")
             };
             connection.DispatchConsumersAsync = true;
